@@ -1,8 +1,15 @@
 module.exports = {
   purge: ["source"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#0A47E2",
+        secondary: "#FCD925",
+      },
+    },
   },
-  variants: {},
+  variants: {
+    textColor: ["responsive", "hover", "focus", "focus-within"],
+  },
   plugins: [],
 };
