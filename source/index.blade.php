@@ -11,11 +11,13 @@
 
     </header>
 
-    <main class="max-w-2xl mt-2">
+    <main class="max-w-2xl mt-2 space-y-10">
         @include('_partials/search-bar')
 
+        @include('_component-shells/avatar-dropdown-menu')
+        @include('_component-shells/countdown-clock')
+        @include('_component-shells/tabs')
+
     </main>
-    
-    
 
 @endsection
