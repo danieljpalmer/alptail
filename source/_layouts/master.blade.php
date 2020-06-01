@@ -18,10 +18,11 @@
             searchTerm: ''
         }"
 
-        @keydown.window.cmd="$refs.search-bar.focus();"
-
         class="max-w-screen-lg p-5 sm:p-10 md:p-20">
             @yield('body')
+
+            @include('_partials/github-link')
+
         </div>
 
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
