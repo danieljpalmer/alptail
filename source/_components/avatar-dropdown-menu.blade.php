@@ -14,16 +14,16 @@ class="relative">
         <nav>
             <ul class="text-sm text-gray-600 py-2">
                 <li class="flex">
-                    <a class="px-6 py-2 transition duration-150 hover:text-indigo-600 hover:underline hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-indigo-600 focus:underline" href="" target="_blank" title="Link 1">Link 1</a>
+                    <a class="w-full px-6 py-2 transition duration-150 hover:text-indigo-600 hover:underline hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-indigo-600 focus:underline" href="" target="_blank" title="Link 1">Link 1</a>
                 </li>
                 <li class="flex">
-                    <a class="px-6 py-2 transition duration-150 hover:text-indigo-600 hover:underline hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-indigo-600 focus:underline" href="" target="_blank" title="Link 2">Link 2</a>
+                    <a class="w-full px-6 py-2 transition duration-150 hover:text-indigo-600 hover:underline hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-indigo-600 focus:underline" href="" target="_blank" title="Link 2">Link 2</a>
                 </li>
                 <li class="flex">
-                    <a class="px-6 py-2 transition duration-150 hover:text-indigo-600 hover:underline hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-indigo-600 focus:underline" href="" target="_blank" title="Link 3">Link 3</a>
+                    <a class="w-full px-6 py-2 transition duration-150 hover:text-indigo-600 hover:underline hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-indigo-600 focus:underline" href="" target="_blank" title="Link 3">Link 3</a>
                 </li>
                 <li class="flex">
-                    <a class="px-6 py-2 transition duration-150 hover:text-indigo-600 hover:underline hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-indigo-600 focus:underline" href="" target="_blank" title="Link 4">Link 4</a>
+                    <a class="w-full px-6 py-2 transition duration-150 hover:text-indigo-600 hover:underline hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-indigo-600 focus:underline" href="" target="_blank" title="Link 4">Link 4</a>
                 </li>
             </ul>
         </nav>
