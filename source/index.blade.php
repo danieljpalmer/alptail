@@ -17,7 +17,7 @@
 
         @include('_container/shell', ['name' => 'Avatar with Dropdown Menu', 'link' => 'https://github.com/danieljpalmer/alpine-tail/blob/master/source/_components/avatar-dropdown-menu.blade.php', 'component' => 'avatar-dropdown-menu' ])
 
-        @include('_container/shell', ['name' => 'Countdown Clock', 'link' => 'https://www.google.com', 'component' => 'countdown-clock'])
+        @include('_container/shell', ['name' => 'Countdown Clock', 'link' => 'https://github.com/danieljpalmer/alpine-tail/blob/master/source/_components/countdown-clock.blade.php', 'component' => 'countdown-clock'])
 
 
     </main>
