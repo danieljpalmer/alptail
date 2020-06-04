@@ -1844,8 +1844,8 @@ __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/alpine.js");
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/danielpalmer/code/alpine-tail/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /Users/danielpalmer/code/alpine-tail/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
+__webpack_require__(/*! /Users/danielpalmer/Documents/GitHub/alpine-tail/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /Users/danielpalmer/Documents/GitHub/alpine-tail/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
 
 
 /***/ })

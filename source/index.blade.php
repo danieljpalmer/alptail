@@ -16,8 +16,8 @@
     <main class="max-w-4xl mt-10 space-y-10">
 
         @include('_component-shells/avatar-dropdown-menu')
-        @include('_component-shells/countdown-clock')
-        @include('_component-shells/tabs')
+        {{-- @include('_component-shells/countdown-clock')
+        @include('_component-shells/tabs') --}}
 
     </main>
 
