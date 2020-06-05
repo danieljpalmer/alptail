@@ -15,7 +15,7 @@ x-data="{
     }
 }"
 
-class="relative border border-dashed border-gray-200 rounded px-16 py-12 flex flex-col items-center justify-center text-gray-500 text-center transition duration-150 hover:border-gray-400" :class="file !== null ? 'text-primary' : 'hover:text-gray-600'">
+class="relative border border-dashed border-gray-300 rounded px-16 py-12 flex flex-col items-center justify-center text-gray-500 text-center transition duration-150 hover:border-gray-400" :class="file !== null ? 'text-primary' : 'hover:text-gray-600'">
 
     <input @change="fileUpdated" class="opacity-0 w-full h-full absolute cursor-pointer" type="file" name="Profile Picture">
 
