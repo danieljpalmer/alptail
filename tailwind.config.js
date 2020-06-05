@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ["source"],
+  purge: ["./source/**/*.blade.php", "./source/**/*.scss"],
   theme: {
     extend: {
       colors: {

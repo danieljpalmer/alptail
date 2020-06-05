@@ -1,6 +1,19 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
 
-@import "custom/styles";
+html {
+  font-family: "Inter", sans-serif;
+  @apply text-gray-800;
+}
 
-@tailwind utilities;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+  @apply font-bold;
+}
+
+@import "tailwindcss/utilities";
