@@ -1833,7 +1833,7 @@ __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/alpine.js");
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nError: ENOENT: no such file or directory, open '/Users/danielpalmer/Documents/Code/alpine-tail/source/_assets/sass/main.scss'\n    at /Users/danielpalmer/Documents/Code/alpine-tail/node_modules/webpack/lib/NormalModule.js:316:20\n    at /Users/danielpalmer/Documents/Code/alpine-tail/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/danielpalmer/Documents/Code/alpine-tail/node_modules/loader-runner/lib/LoaderRunner.js:203:19\n    at /Users/danielpalmer/Documents/Code/alpine-tail/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:85:15\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)");
 
 /***/ }),
 
