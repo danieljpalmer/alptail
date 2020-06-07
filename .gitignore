@@ -11,3 +11,4 @@ yarn-error.log
 # /build_staging/
 # /build_production/
 # /source/assets/build/
+source/assets/build/css/main.css

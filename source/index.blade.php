@@ -13,7 +13,7 @@
 
     </header>
 
-    <main class="max-w-4xl mt-10 space-y-10 sm:space-y-16">
+    <main class="max-w-4xl mt-10 space-y-10 sm:space-y-20">
 
         @include('_container/shell', ['name' => 'Avatar with Dropdown Menu', 'link' => 'https://github.com/danieljpalmer/alpine-tail/blob/master/source/_components/avatar-dropdown-menu.blade.php', 'component' => 'avatar-dropdown-menu' ])
 
@@ -23,6 +23,7 @@
 
         @include('_container/shell', ['name' => 'Upload Zone', 'link' => 'https://github.com/danieljpalmer/alpine-tail/blob/master/source/_components/upload-zone.blade.php', 'component' => 'upload-zone'])
 
+        @include('_container/shell', ['name' => 'Slider Gallery', 'link' => 'https://github.com/danieljpalmer/alpine-tail/blob/master/source/_components/slider.blade.php', 'component' => 'slider'])
 
     </main>
 
