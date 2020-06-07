@@ -14,9 +14,9 @@ x-data="{
             caption: 'George Floyd protests in Uptown Charlotte'
         },
         {
-            src: 'https://images.unsplash.com/photo-1591478247781-5d55f8fbb5a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80',
-            alt: 'Image of Black Lives Matter protest in London',
-            caption: 'Black Lives Matter - London June 2020'
+            src: 'https://images.unsplash.com/photo-1591030617255-43892ec644bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1007&q=80',
+            alt: 'A protester in Washington DC holds a sign featuring George Floyd.',
+            caption: 'A protester in Washington DC holds a sign featuring George Floyd.'
         },
     ]
 }"
@@ -39,7 +39,5 @@ class="max-w-screen-sm"
             <button class="uppercase hover:underline focus:underline focus:outline-none" :class="{ 'text-gray-500' : selected === 0 }" @click="selected > 0 ? selected-- : null">Previous</button>
             <button class="uppercase hover:underline focus:underline focus:outline-none" :class="{ 'text-gray-500' : selected === (images.length - 1) }" @click="selected < (images.length - 1) ? selected ++ : null">Next</button>
         </div>
-
-    
 
 </div>
