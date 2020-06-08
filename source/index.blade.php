@@ -25,6 +25,8 @@
 
         @include('_container/shell', ['name' => 'Slider Gallery', 'link' => 'https://github.com/danieljpalmer/alpine-tail/blob/master/source/_components/slider.blade.php', 'component' => 'slider'])
 
+        @include('_container/shell', ['name' => 'Star Rating', 'link' => 'https://github.com/danieljpalmer/alpine-tail/blob/master/source/_components/star-rating.blade.php', 'component' => 'star-rating'])
+
     </main>
 
 @endsection

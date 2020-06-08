@@ -35,7 +35,7 @@ class="max-w-screen-sm"
         </template>
 
 
-        <div class="w-full flex items-center justify-end space-x-4 text-indigo-600 text-xs">
+        <div class="w-full flex items-center justify-end space-x-4 text-indigo-600 text-xs mt-4">
             <button class="uppercase hover:underline focus:underline focus:outline-none" :class="{ 'text-gray-500' : selected === 0 }" @click="selected > 0 ? selected-- : null">Previous</button>
             <button class="uppercase hover:underline focus:underline focus:outline-none" :class="{ 'text-gray-500' : selected === (images.length - 1) }" @click="selected < (images.length - 1) ? selected ++ : null">Next</button>
         </div>
