@@ -30,7 +30,7 @@ class="max-w-screen-sm"
                     :key="index"
                     class="h-64 w-full object-cover object-center" :src="image.src" :alt="image.alt">
                     
-                <figcaption x-text="image.caption" class="text-xs text-gray-500"></figcaption>
+                <figcaption x-text="image.caption" class="text-xs text-gray-600"></figcaption>
             </figure>
         </template>
 

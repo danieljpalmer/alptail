@@ -20,7 +20,7 @@ x-show.transition="
         </span>
         
     
-        <a class="text-xs self-start sm:text-sm text-gray-500 mb-4 transition duration-150 hover:text-primary hover:underline focus:underline focus:text-primary" href="{{ $link }}" title="View code for {{ $name }}" target="_blank">View Code</a>
+        <a class="text-xs self-start sm:text-sm text-gray-600 mb-4 transition duration-150 hover:text-primary hover:underline focus:underline focus:text-primary" href="{{ $link }}" title="View code for {{ $name }}" target="_blank">View Code</a>
 
         @include('_components/'.$component)
 

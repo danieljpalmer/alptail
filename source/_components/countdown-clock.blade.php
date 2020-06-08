@@ -1,6 +1,6 @@
 <!-- Inspired by the Javascript in this article: https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/ -->
 
-<p class="text-gray-500 mb-2 text-xs">Days left in this wretched year...</p>
+<p class="text-gray-600 mb-2 text-xs">Days left in this wretched year...</p>
 
 <div
 
@@ -53,28 +53,28 @@ class="flex items-center space-x-2 sm:space-x-4">
     <div class="flex flex-col items-center justify-between space-y-1">
 
         <span class="font-bold text-primary text-2xl sm:text-3xl md:text-4xl w-16 h-16 sm:w-24 sm:h-24 flex items-center justify-center border border-gray-200 rounded-sm" x-text="clock.days"></span>
-        <span class="text-xs sm:text-sm text-gray-500">Days</span>
+        <span class="text-xs sm:text-sm text-gray-600">Days</span>
 
     </div>
 
     <div class="flex flex-col items-center justify-between space-y-1">
 
         <span class="font-bold text-primary text-2xl sm:text-3xl md:text-4xl w-16 h-16 sm:w-24 sm:h-24 flex items-center justify-center border border-gray-200 rounded-sm" x-text="clock.hours"></span>
-        <span class="text-xs sm:text-sm text-gray-500">Hours</span>
+        <span class="text-xs sm:text-sm text-gray-600">Hours</span>
 
     </div>
 
     <div class="flex flex-col items-center justify-between space-y-1">
 
         <span class="font-bold text-primary text-2xl sm:text-3xl md:text-4xl w-16 h-16 sm:w-24 sm:h-24 flex items-center justify-center border border-gray-200 rounded-sm" x-text="clock.minutes"></span>
-        <span class="text-xs sm:text-sm text-gray-500">Minutes</span>
+        <span class="text-xs sm:text-sm text-gray-600">Minutes</span>
 
     </div>
 
     <div class="flex flex-col items-center justify-between space-y-1">
 
         <span class="font-bold text-primary text-2xl sm:text-3xl md:text-4xl w-16 h-16 sm:w-24 sm:h-24 flex items-center justify-center border border-gray-200 rounded-sm" x-text="clock.seconds"></span>
-        <span class="text-xs sm:text-sm text-gray-500">Seconds</span>
+        <span class="text-xs sm:text-sm text-gray-600">Seconds</span>
 
     </div>
 
