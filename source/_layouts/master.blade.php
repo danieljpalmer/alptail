@@ -16,6 +16,10 @@
 
         <meta property="og:image" content="/assets/images/og-image.png">
         <meta property="twitter:card" content="summary_large_image">
+        <meta property="og:url" content="{{ $page->getUrl() }}"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="{{ $page->title }}" />
+
     </head>
     <body>
         <div
