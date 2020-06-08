@@ -21,6 +21,8 @@
 
         @include('_container/shell', ['name' => 'Modal', 'link' => 'https://github.com/danieljpalmer/alpine-tail/blob/master/source/_components/modal.blade.php', 'component' => 'modal'])
 
+        @include('_container/shell', ['name' => 'Progress Bar', 'link' => 'https://github.com/danieljpalmer/alpine-tail/blob/master/source/_components/progress-bar.blade.php', 'component' => 'progress-bar'])
+
         @include('_container/shell', ['name' => 'Upload Zone', 'link' => 'https://github.com/danieljpalmer/alpine-tail/blob/master/source/_components/upload-zone.blade.php', 'component' => 'upload-zone'])
 
         @include('_container/shell', ['name' => 'Slider Gallery', 'link' => 'https://github.com/danieljpalmer/alpine-tail/blob/master/source/_components/slider.blade.php', 'component' => 'slider'])
