@@ -7,7 +7,7 @@
 class="relative z-10">
 
     <button @click="open = true" class="w-12 h-12 rounded-full flex items-center justify-center overflow-hidden relative cursor-pointer hover:shadow-md focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-        <img src="https://randomuser.me/api/portraits/women/42.jpg" class="absolute" alt="Your Profile Image">
+        <img src="https://randomuser.me/api/portraits/women/42.jpg" alt="Your Profile Image">
     </button>
 
     <div x-show.transition="open" @click.away="open = false" class="absolute z-10 mt-2 bg-white shadow-lg rounded-sm overflow-hidden">
