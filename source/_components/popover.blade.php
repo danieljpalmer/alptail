@@ -10,7 +10,7 @@ class="relative"
     <!-- Trigger element -->
     <button 
     @mouseover="open = true" @mouseleave="open = false"
-    class="bg-gray-400 text-gray-600 px-4 py-2 rounded hover:bg-gray-500 hover:text-gray-800 transition duration-150 shadow-md">
+    class="bg-gray-400 text-gray-600 text-sm px-4 py-2 rounded hover:bg-gray-500 hover:text-gray-800 transition duration-150 shadow">
         Hover to reveal all
     </button>
 

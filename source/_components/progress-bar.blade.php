@@ -5,13 +5,13 @@ x-data="{
     total: 60
 }"
 
-class="max-w-2xl w-full"
+class="w-full"
 role="progressbar" :aria-valuenow="value" aria-valuemin="0" :aria-valuemax="total"
 >
 
     <!-- Progress bar -->
     <div class="flex flex-col items-end">
-        <span class="text-xs text-gray-500 mb-1" x-text="`${Math.round(value/total * 100)}% progress`"></span>
+        <span class="text-xs text-gray-500 mb-1" x-text="`${Math.round(value/total * 100)}% complete`"></span>
         <span class="p-3 w-full rounded-md bg-gray-200 overflow-hidden relative flex items-center">
             <span class="absolute h-full w-full bg-teal-500 left-0 transition-all duration-300" :style="`width: ${ value/total * 100 }%`"></span>
         </span>
