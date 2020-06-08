@@ -10,6 +10,12 @@
         <title>{{ $page->title }}</title>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <link rel="icon" 
+            type="image/png" 
+            href="/assets/images/favicon.png">
+
+        <meta property="og:image" content="/assets/images/og-image.png">
+        <meta property="twitter:card" content="summary_large_image">
     </head>
     <body>
         <div
