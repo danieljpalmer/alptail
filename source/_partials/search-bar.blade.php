@@ -6,6 +6,6 @@
     <input  
     x-ref="search-bar"
     x-model.debounce="searchTerm"
-    autofocus 
+    aria-label="Search for components..."
     type="search" placeholder="Search components..." class="px-4 pl-10 py-5 w-full border-b-2 border-gray-300 text-gray-800 transition duration-150 focus:outline-none focus:border-secondary">
 </div>
