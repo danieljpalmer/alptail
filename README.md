@@ -1,8 +1,10 @@
-# Jigsaw + Tailwind CSS + Alpine.js Starter Kit
+# What is Alptail?
 
-A starter kit for using the [Jigsaw static site generator](http://jigsaw.tighten.co/) with [Tailwind CSS](https://tailwindcss.com/), and sprinkles in [Alpine.js](https://github.com/alpinejs/alpine).
+Alptail is a collection of open-source UI components, using [Tailwind.css](http://tailwindcss.com/) and [Alpine.js](https://github.com/alpinejs/alpine). Regularly updated and on a mission to make them as accessible as possible. Maintained by [Daniel Palmer](https://www.twitter.com/userlastname).
 
-## Requirements
+This static site is built with Tighten's awesome Laravel Blade based [Jigsaw](https://jigsaw.tighten.co/) generator.
+
+## Requirements to build locally
 
 -   PHP 7
 -   [Composer](https://getcomposer.org/)
@@ -13,13 +15,13 @@ A starter kit for using the [Jigsaw static site generator](http://jigsaw.tighten
 1. Clone this repo
 
     ```sh
-    git clone https://github.com/userlastname/alpine-tailwind-jigsaw
+    git clone https://github.com/danieljpalmer/alptail
     ```
 
 2. Navigate to the folder
 
     ```sh
-    cd jigsaw-tailwindcss
+    cd alptail
     ```
 
 3. Install PHP dependencies
