@@ -4,6 +4,8 @@ Alptail is a collection of open-source UI components, using [Tailwind.css](http:
 
 This static site is built with Tighten's awesome Laravel Blade based [Jigsaw](https://jigsaw.tighten.co/) generator.
 
+[See a demo of the components here.](https://www.alptail.com/)
+
 ## Requirements to build locally
 
 -   PHP 7
