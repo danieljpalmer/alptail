@@ -3,7 +3,9 @@ x-data="{
     open: false
 }"
 
-x-init="$watch('open', value => {
+x-init="
+$refs.modal.classList.remove('hidden');
+$watch('open', value => {
     const body = document.body;
 
     if(!open) {
@@ -17,7 +19,7 @@ x-init="$watch('open', value => {
 
 >
 
-    <div x-show.transition="open" class="fixed z-20 top-0 left-0 w-screen h-screen bg-gray-500 bg-opacity-25 flex items-center justify-center" role="dialog" aria-modal="true">
+    <div x-ref="modal" x-show.transition="open" class="hidden fixed z-20 top-0 left-0 w-screen h-screen bg-gray-500 bg-opacity-25 flex items-center justify-center" role="dialog" aria-modal="true">
 
         <div @mousedown.away="open = false" @keydown.window.escape="open = false" class="w-full max-w-screen-sm bg-white rounded shadow-xl flex flex-col absolute divide-y divide-gray-200">
 
