@@ -15,7 +15,10 @@ class="relative"
     </button>
 
     <!-- Popover -->
+    <!-- Make sure to add the requisite CSS for x-cloak: https://github.com/alpinejs/alpine#x-cloak -->
+
     <div 
+    x-cloak
     x-show.transition="open"
     id="popover"
     class="p-3 space-y-1 max-w-xl bg-white rounded shadow-2xl flex flex-col text-sm text-gray-600 mt-3 absolute z-20">
