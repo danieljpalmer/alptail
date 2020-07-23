@@ -16,4 +16,6 @@ h6 {
   @apply font-bold;
 }
 
+[x-cloak] { display: none; }
+
 @import "tailwindcss/utilities";
