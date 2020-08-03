@@ -10,7 +10,7 @@ class="relative z-10">
         <img src="https://randomuser.me/api/portraits/women/42.jpg" alt="Your Profile Image">
     </button>
 
-    <div x-show.transition="open" @click.away="open = false" class="absolute z-10 mt-2 bg-white shadow-lg rounded-sm overflow-hidden">
+    <div x-cloak x-show.transition="open" @click.away="open = false" class="absolute z-10 mt-2 bg-white shadow-lg rounded-sm overflow-hidden">
         <nav>
             <ul class="text-sm text-gray-600 py-2">
                 <li class="flex">
