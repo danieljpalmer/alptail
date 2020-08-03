@@ -3,7 +3,7 @@
 {{-- Note CDN imports in the master layout at end of body. --}}
 
 <div
-    class="w-full relative"
+    class="w-full relative mt-4"
 
     x-data="{
         muuri: null,
