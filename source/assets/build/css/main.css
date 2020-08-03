@@ -378,7 +378,6 @@ pre {
 button {
   background-color: transparent;
   background-image: none;
-  padding: 0;
 }
 
 /**
@@ -641,7 +640,7 @@ h6 {
 }
 
 [x-cloak] {
-  display: none;
+  display: none !important;
 }
 
 .space-y-0 > :not(template) ~ :not(template) {

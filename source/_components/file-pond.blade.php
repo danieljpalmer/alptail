@@ -4,7 +4,6 @@
 
 <div
     class=""
-    wire:ignore
     x-data="{
         pond: null
     }"
