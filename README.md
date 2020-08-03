@@ -8,42 +8,8 @@ This static site is built with Tighten's awesome Laravel Blade based [Jigsaw](ht
 
 [See a demo of the components here.](https://www.alptail.com/)
 
-## Requirements to build locally
+## Want to help out?
 
--   PHP 7
--   [Composer](https://getcomposer.org/)
--   [Node.js](https://nodejs.org) and NPM
+I maintain Alptail for free in my spare time, for the good of the TALL community. I probably get some stuff wrong, and I definitely could do with help when it comes to accessibility. If you feel like helping contribute to this resource, that's amazing! I've written instructions for how to boot this up on your local here: [See contributing instructions](https://github.com/danieljpalmer/alptail/blob/master/CONTRIBUTING.md)
 
-## Getting Started
-
-1. Clone this repo
-
-    ```sh
-    git clone https://github.com/danieljpalmer/alptail
-    ```
-
-2. Navigate to the folder
-
-    ```sh
-    cd alptail
-    ```
-
-3. Install PHP dependencies
-
-    ```sh
-    composer install
-    ```
-
-4. Install JS dependencies
-
-    ```sh
-    npm install
-    ```
-
-5. Run the dev script to build the site
-
-    ```sh
-    npm run dev
-    ```
-
-To use BrowserSync, run the watch script instead: `npm run watch`
+I'll flesh this out in more detail when I get the chance.
