@@ -8,12 +8,6 @@ npm-debug.log
 yarn-error.log
 
 # Optional ignores
-# /build_staging/
-# /build_production/
-# /source/assets/build/
-source/assets/build/css/main.css
-source/assets/build/mix-manifest.json
-source/assets/build/mix-manifest.json
-source/assets/build/mix-manifest.json
-source/assets/build/css/main.css
-source/assets/build/js/main.js
+/build_staging/
+/build_production/
+/source/assets/build/
