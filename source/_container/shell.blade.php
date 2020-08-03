@@ -1,7 +1,9 @@
 <article 
+id="{{ $component }}"
 x-show.transition="
     searchTerm.length > 0 ? new String('{{ $name }}').toLowerCase().includes(searchTerm.toLowerCase()) : true;
 "
+class="py-4"
 >
 
     <div 

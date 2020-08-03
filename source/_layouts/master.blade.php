@@ -31,15 +31,20 @@
         <div
         
         x-data="{
-            searchTerm: ''
+            searchTerm: new URLSearchParams(location.search).get('open') || ''
         }"
 
         class="max-w-screen-lg p-5 sm:p-10 md:p-20">
 
         <header class="flex flex-col space-y-4 max-w-2xl">
-            @include('_partials/logo', [ 'classes' => 'w-12 text-secondary' ])
 
-            <h1 class="text-4xl leading-tight">Alptail</h1>
+            <a href="/" class="space-y-4 focus:outline-none focus:shadow-outline rounded self-start" title="Alptail Home Page">
+                    
+                @include('_partials/logo', [ 'classes' => 'w-12 text-secondary' ])
+
+                <h1 class="text-4xl leading-tight">Alptail</h1>
+        
+            </a>
 
             <p class="text-lg sm:text-xl">A collection of open-source UI components, using  <a href="http://tailwindcss.com/" title="Tailwind.css Home Page" target="_blank"  rel="noopener" class="font-semibold text-primary transition duration-150 hover:underline focus:underline">Tailwind.css</a> and <a href="https://github.com/alpinejs/alpine"  rel="noopener" title="Alpine.js Github" target="_blank" class="font-semibold text-primary transition duration-150 hover:underline focus:underline">Alpine.js</a>. Regularly updated and on a mission to make them as accessible as possible. Maintained by <a href="https://www.twitter.com/userlastname" title="Daniel Palmer's Twitter Profile" target="_blank"  rel="noopener" class="font-semibold text-primary transition duration-150 hover:underline focus:underline">Daniel Palmer</a>.</p>
 

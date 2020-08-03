@@ -2,7 +2,7 @@
 
 @section('body')
 
-    <div class="max-w-2xl my-8">
+    <div class="max-w-2xl my-12">
         @include('_partials/search-bar')
     </div>
     
