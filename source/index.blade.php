@@ -7,7 +7,7 @@
     <main class="max-w-4xl mt-10 space-y-10 md:space-y-16 text-lg sm:text-xl">
 
         <div class="flex flex-col items-start">
-            <p>Want to have a big ol' browse?</p>
+            <p class="font-semibold">Want to have a big ol' browse?</p>
 
             <a href="/all" title="All Alptail Components" class="mt-4 font-semibold text-primary hover:underline focus:shadow-outline focus:outline-none flex items-center rounded-sm">View all Alptail Components
 
@@ -16,9 +16,10 @@
         </div>
 
         <div>
-            <p class="mb-8">Otherwise, here's a list of the components:</p>
+            <p class="mb-8 font-semibold">Otherwise, here's a list of the components:</p>
 
-            <ul class="flex flex-col space-y-4 items-start text-base text-gray-600 transition duration-150">
+            <p class="font-semibold text-base text-gray-700 italic">Pure Alpine & Tailwind, baby:</p>
+            <ul class="sm:pl-6 sm:border-l sm:border-gray-200 mt-4 mb-10 flex flex-col space-y-4 items-start text-base text-gray-600 transition duration-150">
 
                 <li>
                     <a href="/all?open=avatar%20with%20dropdown" class="hover:text-primary hover:underline">Avatar with Dropdown Menu</a>
@@ -29,15 +30,7 @@
                 </li>
 
                 <li>
-                    <a href="/all?open=filepond" class="hover:text-primary hover:underline">Filepond (drag & drop file input)</a>
-                </li>
-
-                <li>
                     <a href="/all?open=modal" class="hover:text-primary hover:underline">Modal</a>
-                </li>
-
-                <li>
-                    <a href="/all?open=muuri%20draggable%20grid" class="hover:text-primary hover:underline">Muuri Masonary Grid (draggable)</a>
                 </li>
 
                 <li>
@@ -56,7 +49,34 @@
                     <a href="/all?open=star%20rating" class="hover:text-primary hover:underline">Star Rating</a>
                 </li>
 
+                <li>
+                    <a href="/all?open=invite%20team" class="hover:text-primary hover:underline">Invite Team</a>
+                </li>
+
             </ul>
+
+            <p class="font-semibold text-base text-gray-700 italic">Supercharging with other libraries:</p>
+
+            <ul class="sm:pl-6 sm:border-l sm:border-gray-200 mt-4 flex flex-col space-y-4 items-start text-base text-gray-600 transition duration-150">
+
+                <li>
+                    <a href="/all?open=filepond" class="hover:text-primary hover:underline">Filepond (drag & drop file input)</a>
+                </li>
+
+                <li>
+                    <a href="/all?open=muuri%20draggable%20grid" class="hover:text-primary hover:underline">Muuri Masonary Grid (draggable)</a>
+                </li>
+
+                <li>
+                    <a href="/all?open=tagify%20tag" class="hover:text-primary hover:underline">Tagify tag input</a>
+                </li>
+
+                <li>
+                    <a href="/all?open=litepicker" class="hover:text-primary hover:underline">Litepicker calendar/date input</a>
+                </li>
+
+            </ul>
+
         </div>
 
     </main>

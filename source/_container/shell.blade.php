@@ -3,7 +3,7 @@ id="{{ $component }}"
 x-show.transition="
     searchTerm.length > 0 ? new String('{{ $name }}').toLowerCase().includes(searchTerm.toLowerCase()) : true;
 "
-class="py-4"
+class="mt-4 mb-16 md:mb-24"
 >
 
     <div 

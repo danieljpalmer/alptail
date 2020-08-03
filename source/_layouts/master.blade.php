@@ -15,6 +15,12 @@
         <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
         <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet">
         <link href="https://unpkg.com/filepond-plugin-file-poster/dist/filepond-plugin-file-poster.css" rel="stylesheet">
+        
+        <!-- Tagify -->
+        <link href="https://unpkg.com/@yaireo/tagify/dist/tagify.css" rel="stylesheet" type="text/css" />
+
+        <!-- Litepicker -->
+        <link src="https://cdn.jsdelivr.net/npm/litepicker/dist/css/style.css"/>
 
         <link rel="icon" 
             type="image/png" 
@@ -69,5 +75,13 @@
         <!-- Muuri -->
         <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.0/dist/muuri.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+        
+        <!-- Tagify -->
+        <script src="https://unpkg.com/@yaireo/tagify"></script>
+        <script src="https://unpkg.com/@yaireo/tagify@3.1.0/dist/tagify.polyfills.min.js"></script>
+
+        <!-- Litepicker -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/litepicker/dist/js/main.js"></script>
+        
     </body>
 </html>
