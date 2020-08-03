@@ -40,6 +40,8 @@
             searchTerm: new URLSearchParams(location.search).get('open') || ''
         }"
 
+        x-cloak
+
         class="max-w-screen-lg p-5 sm:p-10 md:p-20">
 
         <header class="flex flex-col space-y-4 max-w-2xl">
@@ -82,6 +84,6 @@
 
         <!-- Litepicker -->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/litepicker/dist/js/main.js"></script>
-        
+
     </body>
 </html>
