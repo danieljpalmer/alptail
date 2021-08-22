@@ -1,5 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a6ea4773-6a98-4af1-b330-e512f258dd03/deploy-status)](https://app.netlify.com/sites/alptail/deploys)
 
+Note: I haven't had a chance to update this repo for a while, as my startup has been taking off. I will make the time to upgrade these components to Tailwind 2 and Alpine 3 as soon as I can. Sorry all!
+
 # What is Alptail?
 
 Alptail is a collection of open-source UI components, using [Tailwind.css](http://tailwindcss.com/) and [Alpine.js](https://github.com/alpinejs/alpine). Regularly updated and on a mission to make them as accessible as possible. Maintained by [Daniel Palmer](https://www.twitter.com/userlastname).
