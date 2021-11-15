@@ -13,7 +13,7 @@ x-data="
         seconds: '00',
         remaining: 1000
     },
-    deadline: '1 January 2021',
+    deadline: new Date(new Date().getFullYear()+1, 0, 1),
     calculateTimeLeft: function () {
         const deadline = this.deadline;
         const remaining = Date.parse(deadline) - Date.parse(new Date());
